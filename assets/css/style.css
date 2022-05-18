@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgba(100, 177, 228, 0), rgb(12, 58, 210));
+    color: white
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-top: 15px;
+}
+
+header nav {
+    float: right;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 6px;
+    font-size: 125%;
+}
+
+
+main {
+    padding: 60px;
+}
+
+footer::before {
+    content: '\00A9';
+}
+
+form {
+    margin: 2% auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    color: black;
+    margin: 2%;
+    font-size: 350%;
+    font-weight: bold;
+}
+
+figcaption {
+    margin-top: 2%;
+    font-size: 25px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 250%;
+}
+
+img {
+    border: 5px solid black;
+}
+
+header,
+footer {
+    width: 100%;
+    padding-bottom: 1%;
+    background-color: black;
+}
+
+footer {
+    padding-top: 1%;
+    position: fixed;
+    bottom: 0
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+.container-2 {
+    display: flex;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#border {
+    border: 5px solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#item1 {
+    width: 99.5%;
+}
+
+#item2 {
+    flex: 2;
+}
+
+
+#item3 {
+    flex: 1;
+}
+
+.container-3 {
+    display: flex;
+    margin-top: 2%;
+}
+
+
+#item4 {
+    flex: 1;
+}
+
+#item5 {
+    flex: 2;
+}
+
+#avatar {
+    width: 30%;
+    margin-left: 35%;
+}
+
+.center {
+    margin: 2% auto;
+}
+
+.image {
+    width: 10%;
+}
+
+.text-center {
+   text-align: center;
+}
+
+figcaption {
+    margin-bottom: 7%;
+}
+
+#contact-me {
+    width: 50%;
+    display: block;
+    margin: 2% auto;
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+
+
+h4 {
+    font-size: 200%;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.sub-headers {
+margin-bottom: 2%;
+}
+
+#second-example {
+    float: left;
+    margin-left: 25%;
+}
+
+#third-example {
+    float: right;
+    margin-right: 10%;
+}
+
+#fourth-example {
+    float: left;
+    margin-left: 9%;
+}
+
+#fifth-example {
+    float: right;
+    margin-right: 28%;
+}
+
+@media screen and (max-width: 620px) {
+   h1 {
+        font-size: 150%;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) {
+    #border {
+        border: none;
+    }
+    #item1 {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #item1 {
+        width: 97%;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    #item3 {
+        width: 2%
+    }
+    #item4 {
+        width: 2%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h4 {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h4 {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h4 {
+        font-size: 75%;
+    }
+    #fourth-example {
+        margin-left: 1%;
+    }
+}
