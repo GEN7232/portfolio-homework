@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgba(100, 177, 228, 0), rgb(12, 58, 210));
+    background-image: linear-gradient(to bottom right, rgba(147, 196, 228, 0), rgb(152, 162, 195));
     color: white
 
 }
@@ -111,7 +111,11 @@ a:hover {
 }
 
 #item1 {
-    width: 99.5%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #item2 {
@@ -206,9 +210,6 @@ margin-bottom: 2%;
 }
 
 @media screen and (max-width: 1300px) {
-    #border {
-        border: none;
-    }
     #item1 {
         width: 99%;
     }
