@@ -120,11 +120,13 @@ a:hover {
 
 #item2 {
     flex: 2;
+    width: 30%
 }
 
 
 #item3 {
     flex: 1;
+    width: 30%;
 }
 
 .container-3 {
@@ -135,10 +137,12 @@ a:hover {
 
 #item4 {
     flex: 1;
+    width: 30%;
 }
 
 #item5 {
     flex: 2;
+    width: 30%;
 }
 
 #avatar {
